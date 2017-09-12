@@ -1,0 +1,6 @@
+framework module Pods_Rsa___ {
+  umbrella header "Pods-Rsa加解密-umbrella.h"
+
+  export *
+  module * { export * }
+}

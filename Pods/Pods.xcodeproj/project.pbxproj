@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DE37902FC11337564CC5B54A8D0B46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		50A8BD0E592D3CD2EF9933AD4FF5FECE /* Pods-Rsa加解密Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 845171749B372D528F0234EEBD11A2DC /* Pods-Rsa加解密Tests-dummy.m */; };
+		58467DC267B9A03006C38E3043A32812 /* Pods-Rsa加解密-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF02087F3198C6B6DAA159CD2A68332E /* Pods-Rsa加解密-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6673F7FD4A1437D2FC0CD605583EBBB6 /* Pods-Rsa加解密Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E59383B5BDBBFC0BDA56DDEB7966B8F8 /* Pods-Rsa加解密Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F402FF8424A52C14A7AF16B7DAF1860 /* Pods-Rsa加解密UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7279D886A316DE5E43CC08ABB8A5EDEC /* Pods-Rsa加解密UITests-dummy.m */; };
+		C634ED31670136BA11200A3CBE24DD32 /* Pods-Rsa加解密UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C2193E8D22AC21092585B9BED11230 /* Pods-Rsa加解密UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33CC69D449D64BBA2E3619C647CD5F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F6327E136CE24CE6DA5262F8ADE1A2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F672C1F573C94575C986F18C3AA32825 /* Pods-Rsa加解密-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A204D0C6F95866147CF297420E5569AF /* Pods-Rsa加解密-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02009C1AE8CF1DBFFEC57E3F2D069C3B /* Pods-Rsa加解密.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密.debug.xcconfig"; sourceTree = "<group>"; };
+		1A94E55FCBC0C24B79BE93186B1F972E /* Pods-Rsa加解密Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rsa加解密Tests.modulemap"; sourceTree = "<group>"; };
+		259224F824D5F50F7BA4119FE3EFEAF8 /* Pods-Rsa加解密Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C38E44D640367EE74C94DE8D4006329 /* Pods-Rsa加解密UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DCFA97D65CF736F0911031D556A2776 /* Pods-Rsa加解密Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rsa加解密Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E13F7748E11713167DB2AEB3844A07D /* Pods-Rsa加解密UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密UITests-resources.sh"; sourceTree = "<group>"; };
+		534C483CE5BBB7EF8CEA04A9C64F2151 /* Pods-Rsa加解密Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5698A8A1BD15BBF0E50DC08301CBCCE2 /* Pods-Rsa加解密Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A8BBA37405860D76AC8DCFE547111AB /* Pods-Rsa加解密UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A9A7747447C9A69894B82A85AF36F38 /* Pods-Rsa加解密UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rsa加解密UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7279D886A316DE5E43CC08ABB8A5EDEC /* Pods-Rsa加解密UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rsa加解密UITests-dummy.m"; sourceTree = "<group>"; };
+		8068834BA7E813BE4CA95A21B818653E /* Pods_Rsa___Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rsa___Tests.framework; path = "Pods-Rsa加解密Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845171749B372D528F0234EEBD11A2DC /* Pods-Rsa加解密Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rsa加解密Tests-dummy.m"; sourceTree = "<group>"; };
+		8F2C5A8813FA307EA75AB0B505345E7A /* Pods-Rsa加解密.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rsa加解密.release.xcconfig"; sourceTree = "<group>"; };
+		926CC6ED08C0FA766F86CD76866BD59A /* Pods-Rsa加解密UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密UITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9672C37DD7E18AE22DB141A51994B4AA /* Pods-Rsa加解密UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rsa加解密UITests.modulemap"; sourceTree = "<group>"; };
+		96F66A8EF79CEBBFEA16E82FB2C8B559 /* Pods-Rsa加解密-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密-resources.sh"; sourceTree = "<group>"; };
+		97C2193E8D22AC21092585B9BED11230 /* Pods-Rsa加解密UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rsa加解密UITests-umbrella.h"; sourceTree = "<group>"; };
+		9E6D57DB8AE1FA0F526C6251CB1D86BB /* Pods-Rsa加解密Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密Tests-resources.sh"; sourceTree = "<group>"; };
+		A1964294FE2D62F4DA9E3C913B83F1DD /* Pods_Rsa___.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rsa___.framework; path = "Pods-Rsa加解密.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A204D0C6F95866147CF297420E5569AF /* Pods-Rsa加解密-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rsa加解密-dummy.m"; sourceTree = "<group>"; };
+		A5582156C4747C68FFD1652386B30117 /* Pods-Rsa加解密-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rsa加解密-frameworks.sh"; sourceTree = "<group>"; };
+		BE2958B3F30362A1C2C00D9DE2D0D452 /* Pods-Rsa加解密Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rsa加解密Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D7BE3AA980E1063B5BC957FF88A81E /* Pods_Rsa___UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rsa___UITests.framework; path = "Pods-Rsa加解密UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49F47503F3ECA6DD2E4EA5F47FD018A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C912C60AE73E2F10B5F8B681AFEFB672 /* Pods-Rsa加解密-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rsa加解密-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE8F8F1A171EF9AD56CEBB08EEF8D33E /* Pods-Rsa加解密.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Rsa加解密.modulemap"; sourceTree = "<group>"; };
+		CEAE3409DD4CD9D4F7FCCC070F7AAD5B /* Pods-Rsa加解密UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rsa加解密UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D18A25602EA382BABAE3A29209D25FA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BEF6F9F35788A18BAB8646927E397A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59383B5BDBBFC0BDA56DDEB7966B8F8 /* Pods-Rsa加解密Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rsa加解密Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC84B367F463CC4FF621A9A4753431B2 /* Pods-Rsa加解密-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rsa加解密-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF02087F3198C6B6DAA159CD2A68332E /* Pods-Rsa加解密-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rsa加解密-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0700576BFCEB1EFDDCF046A7E94CD9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6327E136CE24CE6DA5262F8ADE1A2F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9971691EAB6872946AC0B19B00E7AFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CC69D449D64BBA2E3619C647CD5F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D033585B41D86A0AA6FE877D90D9BB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DE37902FC11337564CC5B54A8D0B46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1292F360211DACE1123FD7F1F7EDB2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB33F8A199D13A369F329538FBE931E /* Pods-Rsa加解密 */,
+				7AFFB4BFB3F701B91C11036D9C5908D3 /* Pods-Rsa加解密Tests */,
+				48BDB5FBCAF905406357442501B49A2D /* Pods-Rsa加解密UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48BDB5FBCAF905406357442501B49A2D /* Pods-Rsa加解密UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D18A25602EA382BABAE3A29209D25FA4 /* Info.plist */,
+				9672C37DD7E18AE22DB141A51994B4AA /* Pods-Rsa加解密UITests.modulemap */,
+				6A9A7747447C9A69894B82A85AF36F38 /* Pods-Rsa加解密UITests-acknowledgements.markdown */,
+				CEAE3409DD4CD9D4F7FCCC070F7AAD5B /* Pods-Rsa加解密UITests-acknowledgements.plist */,
+				7279D886A316DE5E43CC08ABB8A5EDEC /* Pods-Rsa加解密UITests-dummy.m */,
+				926CC6ED08C0FA766F86CD76866BD59A /* Pods-Rsa加解密UITests-frameworks.sh */,
+				3E13F7748E11713167DB2AEB3844A07D /* Pods-Rsa加解密UITests-resources.sh */,
+				97C2193E8D22AC21092585B9BED11230 /* Pods-Rsa加解密UITests-umbrella.h */,
+				6A8BBA37405860D76AC8DCFE547111AB /* Pods-Rsa加解密UITests.debug.xcconfig */,
+				2C38E44D640367EE74C94DE8D4006329 /* Pods-Rsa加解密UITests.release.xcconfig */,
+			);
+			name = "Pods-Rsa加解密UITests";
+			path = "Target Support Files/Pods-Rsa加解密UITests";
+			sourceTree = "<group>";
+		};
+		76394B7FB07296BC77E82A2854DB5C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1964294FE2D62F4DA9E3C913B83F1DD /* Pods_Rsa___.framework */,
+				8068834BA7E813BE4CA95A21B818653E /* Pods_Rsa___Tests.framework */,
+				C3D7BE3AA980E1063B5BC957FF88A81E /* Pods_Rsa___UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFFB4BFB3F701B91C11036D9C5908D3 /* Pods-Rsa加解密Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C49F47503F3ECA6DD2E4EA5F47FD018A /* Info.plist */,
+				1A94E55FCBC0C24B79BE93186B1F972E /* Pods-Rsa加解密Tests.modulemap */,
+				BE2958B3F30362A1C2C00D9DE2D0D452 /* Pods-Rsa加解密Tests-acknowledgements.markdown */,
+				2DCFA97D65CF736F0911031D556A2776 /* Pods-Rsa加解密Tests-acknowledgements.plist */,
+				845171749B372D528F0234EEBD11A2DC /* Pods-Rsa加解密Tests-dummy.m */,
+				5698A8A1BD15BBF0E50DC08301CBCCE2 /* Pods-Rsa加解密Tests-frameworks.sh */,
+				9E6D57DB8AE1FA0F526C6251CB1D86BB /* Pods-Rsa加解密Tests-resources.sh */,
+				E59383B5BDBBFC0BDA56DDEB7966B8F8 /* Pods-Rsa加解密Tests-umbrella.h */,
+				534C483CE5BBB7EF8CEA04A9C64F2151 /* Pods-Rsa加解密Tests.debug.xcconfig */,
+				259224F824D5F50F7BA4119FE3EFEAF8 /* Pods-Rsa加解密Tests.release.xcconfig */,
+			);
+			name = "Pods-Rsa加解密Tests";
+			path = "Target Support Files/Pods-Rsa加解密Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				76394B7FB07296BC77E82A2854DB5C32 /* Products */,
+				2E1292F360211DACE1123FD7F1F7EDB2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BB33F8A199D13A369F329538FBE931E /* Pods-Rsa加解密 */ = {
+			isa = PBXGroup;
+			children = (
+				E3BEF6F9F35788A18BAB8646927E397A /* Info.plist */,
+				CE8F8F1A171EF9AD56CEBB08EEF8D33E /* Pods-Rsa加解密.modulemap */,
+				C912C60AE73E2F10B5F8B681AFEFB672 /* Pods-Rsa加解密-acknowledgements.markdown */,
+				EC84B367F463CC4FF621A9A4753431B2 /* Pods-Rsa加解密-acknowledgements.plist */,
+				A204D0C6F95866147CF297420E5569AF /* Pods-Rsa加解密-dummy.m */,
+				A5582156C4747C68FFD1652386B30117 /* Pods-Rsa加解密-frameworks.sh */,
+				96F66A8EF79CEBBFEA16E82FB2C8B559 /* Pods-Rsa加解密-resources.sh */,
+				FF02087F3198C6B6DAA159CD2A68332E /* Pods-Rsa加解密-umbrella.h */,
+				02009C1AE8CF1DBFFEC57E3F2D069C3B /* Pods-Rsa加解密.debug.xcconfig */,
+				8F2C5A8813FA307EA75AB0B505345E7A /* Pods-Rsa加解密.release.xcconfig */,
+			);
+			name = "Pods-Rsa加解密";
+			path = "Target Support Files/Pods-Rsa加解密";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2860F82D8A32FA2180601E9FDF088ACB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6673F7FD4A1437D2FC0CD605583EBBB6 /* Pods-Rsa加解密Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ED83D8B9D99C00402E22EC49A4BB9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C634ED31670136BA11200A3CBE24DD32 /* Pods-Rsa加解密UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A68A3EE6C539BB51930874EA315D26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58467DC267B9A03006C38E3043A32812 /* Pods-Rsa加解密-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C1AD8E95C59E81419D91C4221047768 /* Pods-Rsa加解密Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669666CBA6448FDB552D733A2C1E5186 /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密Tests" */;
+			buildPhases = (
+				F5F57759A2FF1A4506FFAE404D77A40F /* Sources */,
+				9971691EAB6872946AC0B19B00E7AFFE /* Frameworks */,
+				2860F82D8A32FA2180601E9FDF088ACB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Rsa加解密Tests";
+			productName = "Pods-Rsa加解密Tests";
+			productReference = 8068834BA7E813BE4CA95A21B818653E /* Pods_Rsa___Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2A1C70813B10555FA47F34E560F515F /* Pods-Rsa加解密UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB62F059B4D31A7186973B069BC1632E /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密UITests" */;
+			buildPhases = (
+				92DBEA0EDD380505492AE19C2BE5C98C /* Sources */,
+				D033585B41D86A0AA6FE877D90D9BB10 /* Frameworks */,
+				44ED83D8B9D99C00402E22EC49A4BB9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Rsa加解密UITests";
+			productName = "Pods-Rsa加解密UITests";
+			productReference = C3D7BE3AA980E1063B5BC957FF88A81E /* Pods_Rsa___UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA76B8738AF3AC33E0ECF5223E025CA5 /* Pods-Rsa加解密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31692EE766230F21F8150505A04581B6 /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密" */;
+			buildPhases = (
+				63026FF1291B93857183DD10085B2A69 /* Sources */,
+				0700576BFCEB1EFDDCF046A7E94CD9AF /* Frameworks */,
+				94A68A3EE6C539BB51930874EA315D26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Rsa加解密";
+			productName = "Pods-Rsa加解密";
+			productReference = A1964294FE2D62F4DA9E3C913B83F1DD /* Pods_Rsa___.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 76394B7FB07296BC77E82A2854DB5C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA76B8738AF3AC33E0ECF5223E025CA5 /* Pods-Rsa加解密 */,
+				8C1AD8E95C59E81419D91C4221047768 /* Pods-Rsa加解密Tests */,
+				E2A1C70813B10555FA47F34E560F515F /* Pods-Rsa加解密UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63026FF1291B93857183DD10085B2A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F672C1F573C94575C986F18C3AA32825 /* Pods-Rsa加解密-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DBEA0EDD380505492AE19C2BE5C98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F402FF8424A52C14A7AF16B7DAF1860 /* Pods-Rsa加解密UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F57759A2FF1A4506FFAE404D77A40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A8BD0E592D3CD2EF9933AD4FF5FECE /* Pods-Rsa加解密Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		408295C293CF7FDA98ED0C0F27D298FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8BBA37405860D76AC8DCFE547111AB /* Pods-Rsa加解密UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密UITests/Pods-Rsa加解密UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72692EF272FD123A25C94FADB10BC387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C38E44D640367EE74C94DE8D4006329 /* Pods-Rsa加解密UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密UITests/Pods-Rsa加解密UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74DEE5EA516E165D271EF11C25A8462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02009C1AE8CF1DBFFEC57E3F2D069C3B /* Pods-Rsa加解密.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密/Pods-Rsa加解密.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E8FD53CDD5AC881B4497406B5562265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534C483CE5BBB7EF8CEA04A9C64F2151 /* Pods-Rsa加解密Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密Tests/Pods-Rsa加解密Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9382813C7041B56E5090F4D2748965A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2C5A8813FA307EA75AB0B505345E7A /* Pods-Rsa加解密.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密/Pods-Rsa加解密.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEEBCE32CDEE74F84D312EC8B531E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259224F824D5F50F7BA4119FE3EFEAF8 /* Pods-Rsa加解密Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Rsa加解密Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rsa加解密Tests/Pods-Rsa加解密Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Rsa___Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31692EE766230F21F8150505A04581B6 /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DEE5EA516E165D271EF11C25A8462D /* Debug */,
+				9382813C7041B56E5090F4D2748965A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669666CBA6448FDB552D733A2C1E5186 /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8FD53CDD5AC881B4497406B5562265 /* Debug */,
+				CEEBCE32CDEE74F84D312EC8B531E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB62F059B4D31A7186973B069BC1632E /* Build configuration list for PBXNativeTarget "Pods-Rsa加解密UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408295C293CF7FDA98ED0C0F27D298FB /* Debug */,
+				72692EF272FD123A25C94FADB10BC387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
